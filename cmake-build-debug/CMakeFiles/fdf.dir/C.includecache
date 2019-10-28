@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fcraydle/fdf/libft/includes/libft.h
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+libft.h
+/Users/fcraydle/fdf/libft/includes/libft.h
+
+/Users/fcraydle/fdf/main.c
+mlx.h
+-
+libft/includes/libft.h
+/Users/fcraydle/fdf/libft/includes/libft.h
+unistd.h
+-
+
